@@ -1,0 +1,1 @@
+<h1>Success! You have successfully submitted your inquiry</h1>

@@ -1,0 +1,38 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		function makeResponsive() {
+		  var x = document.getElementById("navBar");
+		  if (x.className === "navigation") {
+			x.className += " responsive";
+		  } else {
+			x.className = "navigation";
+		  }
+		}
+		
+		/*Toggle between hiding and showing content within a button*/
+		$(document).ready(function(){
+			  $("#hidden").hide();
+			  $("#show").click(function(){
+				$("#hidden").toggle(500);
+			  });
+			});
+		
+		
+	</script>
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="Navigate NZ - New Zealand tourism website for regional activities">
+	<meta name="keywords" content="NZ, New, Zealand, tourism, region, local">
+	<meta name="author" content="Georgia Barrand">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navigate NZ - regional tourism - regional activites and attractions</title>
+	<link rel="stylesheet" href="theme/style.css" type="text/css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat%7cRoboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
